@@ -206,34 +206,34 @@ function! sonokai#get_palette(style, colors_override) "{{{
           \ }
 elseif a:style ==# 'hikari'
   let palette = {
-        \ 'black':      ['#CFCAC5', '255'],  
-        \ 'bg_dim':     ['#E9E4E0', '254'],  
-        \ 'bg0':        ['#F5F2EF', '253'],  
-        \ 'bg1':        ['#DDD6D1', '252'],  
-        \ 'bg2':        ['#C9C3BD', '251'],  
-        \ 'bg3':        ['#BFB8B3', '250'],  
-        \ 'bg4':        ['#B6AFAB', '249'],  
-        \ 'fg':         ['#2A272C', '236'],  
-        \ 'grey':       ['#4E4A50', '246'],  
-        \ 'grey_dim':   ['#7A767D', '240'],  
+        \ 'black':      ['#DAD8D5', '255'],  
+        \ 'bg_dim':     ['#F2ECE6', '254'],  
+        \ 'bg0':        ['#FBF8F5', '253'],  
+        \ 'bg1':        ['#E6E1DC', '252'],  
+        \ 'bg2':        ['#DDD7D2', '251'],  
+        \ 'bg3':        ['#D3CEC9', '250'],  
+        \ 'bg4':        ['#C8C4C0', '249'],  
+        \ 'fg':         ['#2D2A2E', '235'],  
+        \ 'grey':       ['#37343A', '236'],  
+        \ 'grey_dim':   ['#49464E', '237'],  
         \
-        \ 'red':        ['#CC2F5B', '203'],  
+        \ 'red':        ['#F85E84', '203'],  
         \ 'bg_red':     ['#E64575', '203'],  
         \ 'diff_red':   ['#D58A93', '217'],  
         \
-        \ 'orange':     ['#D67235', '215'],  
-        \ 'yellow':     ['#BE8C00', '179'],  
+        \ 'orange':     ['#EF9062', '215'],  
+        \ 'yellow':     ['#E5C463', '179'],  
         \ 'diff_yellow':['#E3C06F', '186'],  
         \
-        \ 'green':      ['#4C8934', '107'],  
+        \ 'green':      ['#9ECD6F', '107'],  
         \ 'bg_green':   ['#78B05C', '107'],  
         \ 'diff_green': ['#ADCFA2', '194'],  
         \
-        \ 'blue':       ['#2D68A3', '110'],  
+        \ 'blue':       ['#7ACCD7', '110'],  
         \ 'bg_blue':    ['#5A92C2', '110'],  
         \ 'diff_blue':  ['#A4C5E0', '153'],  
         \
-        \ 'purple':     ['#7A5CA0', '176'],  
+        \ 'purple':     ['#AB9DF2', '176'],  
         \
         \ 'none':       ['NONE', 'NONE']
         \ }
