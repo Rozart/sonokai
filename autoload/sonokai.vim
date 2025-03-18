@@ -206,29 +206,35 @@ function! sonokai#get_palette(style, colors_override) "{{{
           \ }
 elseif a:style ==# 'hikari'
   let palette = {
-        \ 'black':      ['#DAD8D5', '255'],  
-        \ 'bg_dim':     ['#EFEAE6', '254'],  
-        \ 'bg0':        ['#F8F5F2', '253'],  
-        \ 'bg1':        ['#E2DBD5', '252'],  
-        \ 'bg2':        ['#D6CFC9', '251'],
-        \ 'bg3':        ['#CCC6C0', '250'],
-        \ 'bg4':        ['#C2BCB8', '249'],
-        \ 'bg_red':     ['#FF5C77', '203'],  
-        \ 'diff_red':   ['#E5B4B8', '217'],
-        \ 'bg_green':   ['#83B869', '107'],  
-        \ 'diff_green': ['#CDE2BC', '194'],
-        \ 'bg_blue':    ['#5BA4E5', '110'],  
-        \ 'diff_blue':  ['#B3D6EE', '153'],
-        \ 'diff_yellow':['#E8D484', '186'],
-        \ 'fg':         ['#322F33', '236'],  
-        \ 'red':        ['#E64575', '203'],  
-        \ 'orange':     ['#E58B45', '215'],  
-        \ 'yellow':     ['#D5A826', '179'],  
-        \ 'green':      ['#5F9F4A', '107'],  
-        \ 'blue':       ['#4385BE', '110'],  
-        \ 'purple':     ['#9476C0', '176'],  
-        \ 'grey':       ['#746F76', '246'],  
-        \ 'grey_dim':   ['#9C959D', '240'],  
+        \ 'black':      ['#CFCAC5', '255'],  
+        \ 'bg_dim':     ['#E9E4E0', '254'],  
+        \ 'bg0':        ['#F5F2EF', '253'],  
+        \ 'bg1':        ['#DDD6D1', '252'],  
+        \ 'bg2':        ['#C9C3BD', '251'],  
+        \ 'bg3':        ['#BFB8B3', '250'],  
+        \ 'bg4':        ['#B6AFAB', '249'],  
+        \ 'fg':         ['#2A272C', '236'],  
+        \ 'grey':       ['#4E4A50', '246'],  
+        \ 'grey_dim':   ['#7A767D', '240'],  
+        \
+        \ 'red':        ['#CC2F5B', '203'],  
+        \ 'bg_red':     ['#E64575', '203'],  
+        \ 'diff_red':   ['#D58A93', '217'],  
+        \
+        \ 'orange':     ['#D67235', '215'],  
+        \ 'yellow':     ['#BE8C00', '179'],  
+        \ 'diff_yellow':['#E3C06F', '186'],  
+        \
+        \ 'green':      ['#4C8934', '107'],  
+        \ 'bg_green':   ['#78B05C', '107'],  
+        \ 'diff_green': ['#ADCFA2', '194'],  
+        \
+        \ 'blue':       ['#2D68A3', '110'],  
+        \ 'bg_blue':    ['#5A92C2', '110'],  
+        \ 'diff_blue':  ['#A4C5E0', '153'],  
+        \
+        \ 'purple':     ['#7A5CA0', '176'],  
+        \
         \ 'none':       ['NONE', 'NONE']
         \ }
   endif
